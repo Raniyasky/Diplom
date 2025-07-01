@@ -23,9 +23,6 @@ tests/
 │ test_api.py # API тесты
 │ test_ui.py # UI тесты
 
-README.md # Этот файл
-pytest.ini # Настройки pytest
----
 
 Запуск тестов
 API тесты:
@@ -37,3 +34,11 @@ bash
 pytest tests/test_ui.py --alluredir=allure-results
 
 Для запуска в видимом режиме — закомментируйте или удалите --headless=new в conftest.py.
+
+Используемые библиотеки
+- 🔸pytest
+- 🔸selenium
+- 🔸allure-pytest
+- 🔸requests
+- 🔸webdriver-manager
+- 🔸flake8 
